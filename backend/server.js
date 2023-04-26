@@ -13,9 +13,9 @@ var cors = require("cors");
 
 
 
-app.use(cors());
 
 const app = express()
+app.use(cors());
 
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"))
