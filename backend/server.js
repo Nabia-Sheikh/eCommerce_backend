@@ -9,6 +9,11 @@ const userRoute = require("./routes/userRoute")
 const orderRoute = require("./routes/orderRoute")
 const uploadRoutes = require("./routes/uploadRoutes")
 const morgan = require("morgan")
+var cors = require("cors");
+
+
+
+app.use(cors());
 
 const app = express()
 
