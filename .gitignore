@@ -1,0 +1,5 @@
+/frontend/node_modules
+.env
+node_modules
+# production
+/frontend/build
